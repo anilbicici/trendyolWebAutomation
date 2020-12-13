@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrendyolTest" parallel="none">
+
+    <test name="ChromeTest">
+        <parameter name="Browser" value="ch"/>  <!--Change value to change test browser (ie,ff etc.)-->
+        <classes>
+            <class name="MainTest"/>
+        </classes>
+    </test>
+
+</suite>
